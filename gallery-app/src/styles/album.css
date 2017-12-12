@@ -1,0 +1,50 @@
+body {
+  /*min-height: 75rem; !* Can be removed; just added for demo purposes *!*/
+}
+
+.album {
+  /*min-height: 50rem; !* Can be removed; just added for demo purposes *!*/
+  /*padding-top: 3rem;*/
+  /*padding-bottom: 3rem;*/
+  /*background-color: #f7f7f7;*/
+}
+
+.card {
+  /*float: left;*/
+  /*width: 25%;*/
+  padding: .75rem;
+  margin-bottom: 2rem;
+  border: 0;
+}
+
+.card > img {
+  /*margin-bottom: .75rem;*/
+}
+
+.card-text {
+  /*font-size: 85%;*/
+}
+
+.modal-header {
+  border-bottom: none;
+}
+
+.modal-footer {
+  justify-content: center;
+  border: none;
+}
+
+.modal-content {
+  height: 100%;
+}
+
+.modal-dialog {
+  max-width: 100%;
+  margin: 0;
+  height: 100%;
+}
+
+.loader-inner.ball-scale-multiple div{
+  background-color: #D32F2F;
+}
+

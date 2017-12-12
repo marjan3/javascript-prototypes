@@ -1,0 +1,21 @@
+<ng-template #content let-c="close" let-d="dismiss" class="full-screen">
+  <div class="modal-header">
+    <h4 class="modal-title">{{selectedArt.title}}</h4>
+    <button type="button" class="close" aria-label="Close" (click)="d('Cross click')">
+      <span aria-hidden="true">&times;</span>
+    </button>
+  </div>
+  <div class="modal-body">
+    <img style="max-width: 100%; max-height: 100%; margin: 0 auto; display: block;" src="https://dummyimage.com/600x400/a5a5a5/000.png&text=title_{{selectedArt.title}}_id_{{selectedArt.$key}}" data-holder-rendered="true">
+  </div>
+  <div class="modal-footer">
+    <dl class="row">
+      <dt class="col-sm-3">Date</dt>
+      <dd class="col-sm-9">{{selectedArt.timeStamp}}</dd>
+      <dt class="col-sm-3">Description</dt>
+      <dd class="col-sm-9">
+        <p>Vestibulum id ligula porta felis euismod semper eget lacinia odio sem nec elit: {{selectedArt.description}}.</p>
+      </dd>
+    </dl>
+  </div>
+</ng-template>

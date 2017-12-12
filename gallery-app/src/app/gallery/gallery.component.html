@@ -1,0 +1,33 @@
+<div class="album text-muted">
+  <div class="container">
+
+    <app-art #appArt ></app-art>
+
+    <div class="card-columns">
+      <div class="card" *ngFor="let art of arts | async">
+        <img class="card-img img-fluid"
+             style="cursor: pointer"
+             (click)="appArt.open(art)"
+             alt="{{art.title}}"
+             src="https://dummyimage.com/500x500/a5a5a5/000.png&text=title_{{art.title}}_id_{{art.$key}}"
+             data-holder-rendered="true">
+        <p class="card-text">{{art.description}}</p>
+      </div>
+    </div>
+    <div
+      infiniteScroll
+      [infiniteScrollDistance]="2"
+      [infiniteScrollThrottle]="1000"
+      (scrolled)="onScroll()">
+    </div>
+    <div *ngIf="!finished">
+      <div class="row h-100 justify-content-center align-items-center">
+          <loaders-css [loader]="'ball-scale-multiple'" ></loaders-css>
+      </div>
+    </div>
+    <div *ngIf="finished">
+      End of database... That's all folks!
+    </div>
+
+  </div>
+</div>

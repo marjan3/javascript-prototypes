@@ -1,0 +1,57 @@
+/* You can add global styles to this file, and also import other style files */
+@import '~bootstrap/dist/css/bootstrap.min.css';
+@import './styles/album.css';
+@import '~loaders.css/loaders.css';
+/*@import "./styles/styles.scss";*/
+/*@media (max-width: 575px) {*/
+  /*.card {*/
+    /*width: 100%;*/
+  /*}*/
+  /*html {*/
+    /*font-size: 1.2rem;*/
+  /*}*/
+/*}*/
+
+
+/*@media (min-width: 576px) and (max-width: 767px) {*/
+  /*.card {*/
+      /*width: 100%;*/
+  /*}*/
+  /*html {*/
+    /*font-size: 1.2rem;*/
+  /*}*/
+/*}*/
+
+
+/*@media (min-width: 768px) and (max-width: 991px) {*/
+  /*.card {*/
+    /*width: 50%;*/
+  /*}*/
+  /*html {*/
+    /*font-size: 1.4rem;*/
+  /*}*/
+/*}*/
+
+
+/*@media (min-width: 992px) and (max-width: 1199px) {*/
+  /*.card {*/
+    /*width: 33.333%;*/
+  /*}*/
+  /*html {*/
+    /*font-size: 1.6rem;*/
+  /*}*/
+/*}*/
+
+/*@media (min-width: 1200px) {*/
+  /*.card {*/
+    /*width: 25%;*/
+  /*}*/
+  /*html {*/
+    /*font-size: 1.6rem;*/
+  /*}*/
+/*}*/
+
+
+html {
+  font-size: 1rem;
+}
