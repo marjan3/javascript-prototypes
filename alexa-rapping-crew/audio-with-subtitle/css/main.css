@@ -1,0 +1,60 @@
+
+
+/* ==========================================================================
+   Author's custom styles
+   ========================================================================== */
+
+
+   body {
+    padding-top: 50px;
+    padding-bottom: 20px;
+    font-family: 'Indie Flower', cursive;
+  }
+
+      .title {
+          text-align: center;
+      }
+      .audioVisualize {
+        padding: 0;
+        margin: auto;
+        display: block;
+        width: 800px;
+      }
+      .audioPlayer {
+          height: 0px
+      }
+      .subtitleText {
+        margin-top: 2em;
+        text-align: center;
+        -webkit-perspective: 800;
+        -webkit-transform-style: preserve-3d;
+      }
+      .subtitleText > div:last-child {
+        position: relative;
+        top: -36px;
+      }
+      .subtitleText > div {
+        opacity: 0;
+        height: 0px;
+        font-family: 'Indie Flower', cursive;
+        -webkit-transition: all 500ms ease-in-out;
+        -webkit-transform-origin: 50% 100%;
+        -webkit-transform: rotateX(-90deg);
+      }
+      .subtitleText > div.on {
+        opacity: 1;
+        -webkit-transform: rotateX(0);
+      }
+
+
+
+
+
+
+
+
+
+
+
+
+
