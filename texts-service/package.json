@@ -1,0 +1,14 @@
+{
+  "name": "texts-service",
+  "version": "0.0.1",
+  "description": "Retrieve texts based on key",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "firebase": "^7.5.0"
+  }
+}

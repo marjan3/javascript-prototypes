@@ -1,0 +1,13 @@
+.pattern-win-table td,
+.pattern-win-table th {
+  text-align: center;
+  vertical-align: 0px;
+  text-align: center !important;
+  padding: 3px;
+}
+.pattern-win-row {
+  margin-bottom: 5px;
+}
+.pattern-win-card-body {
+  padding: 1rem;
+}

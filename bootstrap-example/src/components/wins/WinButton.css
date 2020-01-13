@@ -1,0 +1,8 @@
+.win-button button {
+  font-size: 1em;
+  text-align: center;
+  font-family: Verdana, Arial, Helvetica, sans-serif;
+}
+.win-button {
+  margin-bottom: 3px;
+}
