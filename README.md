@@ -1,6 +1,6 @@
 # Javascript Prototypes
 
-> **Javascript Prototypes** is a collection of javascript prototypes, examples, etc.
+> **Javascript Prototypes** is a collection of javascript prototypes, examples, etc. The purpose of each prototype is to demonstrate how javascript can be used or how another technology can be combined with javascript.
 
 ## Getting started
 
